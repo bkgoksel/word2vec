@@ -14,4 +14,4 @@ word2phrase : $(SRCDIR)/word2phrase.c
 	$(CC) $(SRCDIR)/word2phrase.c -o $(BUILDDIR)/word2phrase $(CFLAGS)
 
 clean:
-rm -rf word2vec word2phrase build
+	rm -rf word2vec word2phrase build
