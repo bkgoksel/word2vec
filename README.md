@@ -1,5 +1,9 @@
 word2vec
 ========
+Original from https://github.com/dav/word2vec
+
+This is a codalab-friendly fork of the above repo that places everything in a single root Makefile so that the training binaries can be
+compiled from root.
 
 Original from https://code.google.com/p/word2vec/
 
