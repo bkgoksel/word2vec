@@ -12,7 +12,7 @@ word2vec : $(SRCDIR)/word2vec.c
 	$(CC) $(SRCDIR)/word2vec.c -o $(BUILDDIR)/word2vec $(CFLAGS)
 word2phrase : $(SRCDIR)/word2phrase.c
 	$(CC) $(SRCDIR)/word2phrase.c -o $(BUILDDIR)/word2phrase $(CFLAGS)
-vec2vec : $(SRCDIR)/convertvec.c
+convertvec: $(SRCDIR)/convertvec.c
 	$(CC) $(SRCDIR)/convertvec.c -o $(BUILDDIR)/convertvec $(CFLAGS)
 
 
